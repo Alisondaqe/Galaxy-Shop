@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptado</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+   
+    <div class="container">
+        <div class="encriptar">
+            <textarea name="texto" cols="30" rows="10" class="texto" id="texto" placeholder="     Ingrese el texto aqui">
+        </textarea>
+
+            <div class="terminos">
+   <br> <br>             <p class="encriptadores">Se permite todo tipo de texto</p>
+            <div class="botones"> 
+                <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar
+                </button>
+             <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()" />
+            </div>
+            </div>
+        <div class="encriptado">
+
+            <img src="../img/angiedaque.gif" alt="" id="inicio">
+            <div class="mensaje-encriptado" id="mensaje-encriptado">
+                <h2 id="titulo-mensaje">Ningún mensaje encontrado</h2> <br>
+             <p>   Ingresa el texto que deseas encriptar o desencriptar </p>
+                <!--<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje" ></textarea>-->
+            </div>
+    
+        </div>
+
+      </section>
+    <script src="script.js"></script>
+</body>
+</html>
